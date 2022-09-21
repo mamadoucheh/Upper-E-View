@@ -70,10 +70,7 @@ body {
   text-decoration: none;
 }
 
-.h1_title{
-  /* background-color: red; */
-  font-size: 7em;
-}
+
 
 .h1.h1--white {
   /* color: #fffeea; */
@@ -1084,6 +1081,19 @@ body {
   }
 }
 
+@media screen and (min-width: 767px) {  
+.h1_title{
+  /* background-color: red; */
+  font-size: 7em;
+}
+
+.ntm{
+  font-size: 2.3em;
+}
+}
+
+
+
 @media screen and (max-width: 479px) {
   .h1 {
     font-size: 16.82em;
@@ -1518,7 +1528,7 @@ body {
   .table-responsive tr td:before {
     position: absolute;
     left: 6px;
-    width: 45%;
+    width: 30%;
     padding-right: 10px;
     white-space: nowrap;
     padding-left: 0.75em;
@@ -1530,7 +1540,7 @@ body {
   .table-responsive tr td {
     border: 1px solid #ffffff;
     position: relative;
-    padding-left: 50%;
+    padding-left: 30%;
     padding-right: 0.75em;
     text-align: right;
     color: white;
@@ -1574,9 +1584,16 @@ body {
   }
 
   .wf-section{
-    height: 60vh;
+    height: 80vh;
     margin-bottom: 5em;
+    /* background-color: red; */
+
   }
+
+  .about-us {
+    background-color: red;
+  }
+
 
   .h3--white{
     font-size: 8em;
@@ -1624,11 +1641,24 @@ body {
 
 
   .table-responsive * {
+    font-size: 2vw;
+
+  }
+  
+  .titleTable {
     font-size: 3vw;
+  }
+
+
+  .titleTableau{
+    margin-bottom: 5px;
   }
 
   .table-responsive td {
     background-color: rgb(171, 164, 164);
+    /* background-color: red; */
+    height: 3em;
+   
     /* border-radius: 5%; */
   }
 
@@ -1636,13 +1666,52 @@ body {
     /* background-color: red; */
     font-size: 2.5vw;
     margin-bottom: 10px;
+
+
   }
 
+  .table-responsive tr td {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+
   .video{
-    height: 60vh;
-    margin-top: 100px;
+    /* height: 60vh; */
+    /* margin-top: 100px; */
     background-color: var(--bleuUpper);
   }
+
+  .ntm {
+    font-size: 3em;
+  }
+
+  .tableau{
+    /* padding-top: 19em; */
+    background-color: var(--bleuUpper);
+  }
+
+  .about-us {
+    /* margin-bottom: 20em; */
+    background-color: red;
+    /* height: 60vh; */
+  }
+
+  .inutile {
+    
+    
+    /* visibility: hidden; */
+  }
+
+  .titleGros {
+    font-size: 8em;
+  }
+
+
+
+
 
 
 
