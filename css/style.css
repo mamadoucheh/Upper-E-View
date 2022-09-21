@@ -1,8 +1,28 @@
 body {
   font-family: roc-grotesk, sans-serif;
-  color: rgb(144, 219, 238);
+  color: var(--bleuUpper);
   font-size: 1vw;
   line-height: 20px;
+}
+
+.spanclass{
+  color: var(--bleuUpper);
+}
+
+:root {
+  --blue: #001224;
+  --white: #ffffff;
+  --jaune: rgb(41, 43, 47);
+  --ntm: rgb(255, 140, 0);
+  --span: rgb(255, 140, 0);
+  --bleuUpper: #2ca5dd;
+  --vertUpper: #8ec645;
+  --grisParagraph : #b5b5b5;
+  --fondRoadmap : #2ca5dd;
+}
+
+.ntm{
+  color: var(--ntm);
 }
 
 .body {
@@ -79,7 +99,7 @@ body {
   position: relative;
   overflow: hidden;
   width: 100%;
-  background-color: #fffeea;
+  background-color: var(--blue);
   font-size: 1em;
 }
 
@@ -148,19 +168,35 @@ body {
   border-bottom: 0.1em solid #bdbdbd;
 }
 
+
+
+.U{
+  color: var(--bleuUpper);
+}
+
+.E{
+  color: var(--vertUpper);
+}
+
+.ameliorer{
+  color: var(--vertUpper);
+  background-color: rgb(41, 43, 47);
+}
+
 .paragraph {
   text-align: justify;
   margin-bottom: 0px;
   font-family: roc-grotesk, sans-serif;
-  color: rgb(206, 171, 219);
+  /* color: var(--white); */
   font-size: 1.5em;
   line-height: 1.37;
   font-weight: 500;
   text-decoration: none;
+  vertical-align: middle;
 }
 
 .paragraph.paragraph--white {
-  color: #fffeea;
+  color: var(--ntm);
 }
 
 .paragraph.paragraph__magiceden {
@@ -199,7 +235,7 @@ body {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: #fffeea;
+  background-color: var(--blue);
 }
 
 .main-container {
@@ -369,7 +405,7 @@ body {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  background-color: rgb(41, 43, 47);
+  background-color: var(--jaune);
 }
 
 .div__joinus {
@@ -395,7 +431,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 1.47em;
-  background-color: rgb(206, 171, 219);
+  background-color: var(--white);
 }
 
 .div__call-to-action {
@@ -460,7 +496,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 1.47em;
-  background-color: rgb(206, 171, 219); /*violet*/
+  background-color: var(--white); /*violet*/
 }
 
 .text-span {
@@ -485,7 +521,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   font-family: roc-grotesk, sans-serif;
-  color: #fffeea;
+  color: var(--blue);
   font-size: 2.21em;
   font-weight: 400;
 }
@@ -508,7 +544,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 0.44em;
-  background-color: #fffeea;
+  background-color: var(--blue);
   text-decoration: none;
 }
 
@@ -523,7 +559,7 @@ body {
 }
 
 .roadmap {
-  background-color: rgb(144, 219, 238);
+  background-color: var(--fondRoadmap);
   /* background-color: rgb(144, 219, 238); */
 }
 
@@ -546,7 +582,13 @@ body {
   -ms-flex-align: start;
   align-items: flex-start;
   border-radius: 1.47em;
-  background-color: #fffeea;
+  background-color: var(--white);
+  color: var(--bleuUpper);
+}
+
+.ntm2{
+  background-color: var(--ntm);
+  color: var(--white);
 }
 
 .div__roadmap-left {
@@ -585,7 +627,7 @@ body {
   -ms-flex-align: start;
   align-items: flex-start;
   border-radius: 1.47em;
-  background-color: #fffeea;
+  background-color: var(--blue);
 }
 
 .div__roadmap-tile-2.last__tile {
@@ -593,7 +635,7 @@ body {
 }
 
 .div__roadmap-tile-2.check {
-  background-color: #fffeea;
+  background-color: var(--blue);
 }
 
 .basc-team {
@@ -670,7 +712,7 @@ body {
   overflow: hidden;
   height: 100vh;
   /* background-color: rgb(144, 219, 238); */
-  background-color: rgb(41, 43, 47);
+  background-color: var(--jaune);
 }
 
 /* .bonjour {
@@ -909,7 +951,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 1.47em;
-  background-color: rgb(144, 219, 238);
+  background-color: var(--white);
   /*bleu*/
 }
 
@@ -928,7 +970,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 0.44em;
-  background-color: #fffeea;
+  background-color: var(--jaune);
   text-decoration: none;
 }
 
@@ -1479,13 +1521,15 @@ body {
 } 
 
 .tableau {
-  background-color: rgb(110, 113, 116);
+  background-color: rgb(41, 43, 47);
   padding-top: 2em;
   padding-bottom: 2em;
   padding-left: 3%;
   padding-right: 3%;
   vertical-align: middle;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: roc-grotesk, sans-serif;
+  font-style:inherit;
+  /* font-size: 4vw; */
 }
 
 
@@ -1571,7 +1615,9 @@ body {
   }
 
   .video{
+    height: 60vh;
     margin-top: 100px;
+    background-color: var(--bleuUpper);
   }
 
 
