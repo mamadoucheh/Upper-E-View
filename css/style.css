@@ -563,6 +563,13 @@ body {
   /* background-color: rgb(144, 219, 238); */
 }
 
+.check{
+  align-items: center;
+  display: flex;
+  vertical-align: middle;
+  text-align: justifyr;
+}
+
 .div__roadmap-tile-1 {
   position: relative;
   z-index: 1;
@@ -584,6 +591,10 @@ body {
   border-radius: 1.47em;
   background-color: var(--white);
   color: var(--bleuUpper);
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .ntm2{
@@ -605,7 +616,7 @@ body {
 
 .div__roadmap--paragraph {
   width: 26.32em;
-  margin-top: 0.88em;
+  /* margin-top: 0.88em; */
 }
 
 .div__roadmap-tile-2 {
@@ -628,6 +639,11 @@ body {
   align-items: flex-start;
   border-radius: 1.47em;
   background-color: var(--blue);
+  display: flex;
+  vertical-align: middle;
+  line-height: normal;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .div__roadmap-tile-2.last__tile {
@@ -1528,7 +1544,7 @@ body {
   padding-right: 3%;
   vertical-align: middle;
   font-family: roc-grotesk, sans-serif;
-  font-style:inherit;
+  line-height: 1.5em;
   /* font-size: 4vw; */
 }
 
