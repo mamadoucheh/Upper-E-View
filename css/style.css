@@ -1094,7 +1094,7 @@ body {
 }
 
 .ntm{
-  font-size: 2.3em;
+  font-size: 5em;
 }
 }
 
@@ -1114,7 +1114,7 @@ body {
   }
 
   .paragraph.paragraph--white {
-    /* font-size: 6.67em; */
+    font-size: 5em;
   }
 
   .paragraph.paragraph__magiceden {
