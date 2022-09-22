@@ -596,9 +596,15 @@ body {
 
 }
 
+.ntm3{
+  padding: 1em;
+  font-size: 2em;
+}
+
 .ntm2{
   background-color: var(--ntm);
   color: var(--white);
+  /* font-size: 115%; */
 }
 
 .div__roadmap-left {
